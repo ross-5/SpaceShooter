@@ -1,0 +1,29 @@
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 300px;
+  height: 300px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.player{
+  background-color: green;
+}
+
+.enemy{
+  background-color: red;
+  border-radius: 10px;
+}
+
+.boom{
+  background-color: orange;
+}
+
+.laser{
+  background-color: yellow;
+}
