@@ -1,4 +1,5 @@
 .grid{
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   border: solid 1px;
@@ -26,4 +27,11 @@
 
 .laser{
   background-color: yellow;
+}
+.start{
+  width:10%;
+  height: 110%;
+  border: solid 1px;
+  margin: auto;
+  text-align:center;
 }
