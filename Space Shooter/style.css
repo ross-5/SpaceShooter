@@ -1,3 +1,17 @@
+body{
+  background-color: black;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+h3{
+  color: white;
+  text-align: center;
+}
+
 .grid{
   margin: auto;
   display: flex;
@@ -14,6 +28,7 @@
 
 .player{
   background-color: green;
+  border-radius: 10px;
 }
 
 .enemy{
@@ -23,15 +38,20 @@
 
 .boom{
   background-color: orange;
+  border-radius: 10px;
 }
 
 .laser{
   background-color: yellow;
+  border-radius: 10px;
 }
-.start{
+
+#start{
   width:10%;
   height: 110%;
   border: solid 1px;
+  border-color: white;
   margin: auto;
   text-align:center;
+  color: white;
 }
